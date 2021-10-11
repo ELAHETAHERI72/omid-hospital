@@ -1,0 +1,82 @@
+table {
+  width: 1190px !important;
+}
+
+.table-search-section {
+  width: 1190px;
+  background: #f6f6f7;
+  height: 86px;
+  margin-bottom: 10px;
+  padding: 20px 95px;
+  border-radius: 10px;
+
+  input,
+  select {
+    border: 2px ​solid #e1dfdf !important;
+    background-color: transparent;
+  }
+  .search-field {
+    background-color: #fff;
+    width: 356px !important;
+    height: 50px !important;
+    border-radius: 10px;
+  }
+}
+
+input,
+button {
+  outline: none !important;
+  border: none !important;
+}
+
+.button-field {
+  width: 163px;
+  height: 47px;
+  background-color: #c7c9cc !important;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fed0dc !important;
+  color: #e46585 !important;
+}
+
+::ng-deep {
+  .mat-select-arrow {
+    color: rgb(121 120 120 / 70%) !important;
+  }
+
+  .mat-select-arrow {
+    margin: 21px 4px !important;
+  }
+
+  .mat-table {
+    background-color: #fff !important;
+  }
+
+  .mat-cell,
+  .mat-footer-cell {
+    color: #4b4b4b !important;
+  }
+
+  mat-row,
+  mat-header-row,
+  mat-footer-row,
+  th.mat-header-cell,
+  td.mat-cell,
+  td.mat-footer-cell {
+    border-bottom-color: rgb(187 187 187 / 12%);
+  }
+
+  .mat-elevation-z8 {
+    box-shadow: none !important;
+  }
+
+  .mat-header-cell {
+    color: black !important;
+  }
+}
